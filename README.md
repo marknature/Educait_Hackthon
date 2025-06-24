@@ -163,3 +163,8 @@ Watch our 3-minute demo: [📹 Google Drive Folder](https://drive.google.com/dri
 🧠 *"Performance is not just stats — it's story, psychology, and strategy combined."*
 
 ```
+
+---
+
+Let me know if you want me to export this as a `.md` file, help set up the repo folder, or generate the `requirements.txt`.
+```
