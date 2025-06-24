@@ -37,7 +37,7 @@ This project addresses these questions through an AI-assisted pipeline that enha
 - **Model**: Rule-based logic + ML-based substitution impact predictions.
 - **Output**: Minute-by-minute substitution timeline + justification.
 
-### 🔥 Bonus Feature (Optional): Emotional Momentum Timeline
+### 🔥 Bonus Feature: Emotional Momentum Timeline
 - Analyzes match phases using stats and video to detect:
   - 🔴 High Tension
   - 🟢 Control
@@ -153,17 +153,15 @@ Reason: Accuracy dropped 88% → 62% | Yellow card | High opponent pressure
 
 ## 👨‍💻 Team
 
-* **Mark Chindudzi** – Machine Learning Engineer, Project Lead
+* **Mark Chindudzi** – Machine Learning Engineer, System Architect, Project Lead
   [GitHub](https://github.com/MarkNature) | [LinkedIn](https://www.linkedin.com/in/marknature-c)
+* **Shallin T Tariro** - Project Manager, Software Developer
 
 ---
 
 ## 📅 Submission Details
 
-* **Hackathon**: Educait Soccer Analytics Hackathon – Campus Creator Challenge 2.0
-* **Deadline**: June 24, 2025
-* **Repository**: [GitHub Repo](https://github.com/educait-ai/soccer-analytics-hackthon)
-
+* Side Project working on our skills.
 ---
 
 ## 🔮 Future Work
