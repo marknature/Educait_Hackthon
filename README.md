@@ -120,19 +120,31 @@ A 5-minute slide presentation covers:
 ## 📁 Project Structure
 
 ```
+📦 soccer-analytics
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── raw/                    # Original SQL data files
+│   │   └── database.sqlite
+│   └── processed/              # Processed data (CSV/Parquet)
+│       ├── match_stats.parquet
+│       ├── player_metrics.parquet
+│       └── player_events.parquet
 ├── notebooks/
-│   └── talent_model.ipynb
+│   └── talent_model.ipynb      # Jupyter notebook for exploration
 ├── src/
-│   └── feature_engineering.py
+│   ├── data_loader.py          # SQL data loading utilities
+│   ├── feature_engineering.py  # Feature creation
+│   ├── modeling.py             # Model training/prediction
+│   └── visualization.py       # Plotting functions
 ├── app/
-│   └── dashboard.py
+│   ├── dashboard.py            # Streamlit/Plotly Dash app
+│   └── templates/              # HTML templates (if web app)
 ├── report/
-│   └── technical_doc.pdf
-├── requirements.txt
-└── README.md
+│   ├── technical_doc.pdf       # Methodology documentation
+│   └── presentation.pdf        # Results presentation
+├── tests/                      # Unit tests
+│   └── test_features.py
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 ```
 
 ---
@@ -142,10 +154,3 @@ A 5-minute slide presentation covers:
 * Expand to multi-league datasets
 * Improve prediction of late bloomers
 * Incorporate tracking data and scouting reports
-
-```
-
----
-
-Would you like this as a downloadable file or want me to tailor it with your GitHub link and teammate names?
-```
