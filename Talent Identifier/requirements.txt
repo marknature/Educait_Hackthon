@@ -20,3 +20,11 @@ tqdm>=4.65.0
 
 # Sports Data API
 balldontlie>=0.1.0
+
+pandas==2.0.3
+numpy==1.24.3
+sqlite3==3.41.2
+plotly==5.14.1
+streamlit==1.24.0
+pyarrow==12.0.1  # For parquet support
+scikit-learn==1.3.0

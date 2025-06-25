@@ -137,7 +137,7 @@ A 5-minute slide presentation covers:
 │   └── visualization.py       # Plotting functions
 ├── app/
 │   ├── dashboard.py            # Streamlit/Plotly Dash app
-│   └── templates/              # HTML templates (if web app)
+│   └── templates/
 ├── report/
 │   ├── technical_doc.pdf       # Methodology documentation
 │   └── presentation.pdf        # Results presentation
@@ -154,3 +154,21 @@ A 5-minute slide presentation covers:
 * Expand to multi-league datasets
 * Improve prediction of late bloomers
 * Incorporate tracking data and scouting reports
+
+Advanced performance metrics for soccer player evaluation using SQL data. Identifies undervalued players through novel metrics like Progressive Impact Score (PIS) and Defensive Disruption Index (DDI).
+
+## Setup
+1. Clone repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Place SQL database in `data/raw/`
+
+## Usage
+- Exploration Notebook: `notebooks/talent_model.ipynb`
+- Dashboard: `streamlit run app/dashboard.py`
+- Feature Engineering: Import from `src.feature_engineering`
+
+## Key Features
+✅ Novel performance metrics (PIS, DDI)  
+✅ SQL data pipeline  
+✅ Interactive visualization dashboard  
+✅ Statistical validation
